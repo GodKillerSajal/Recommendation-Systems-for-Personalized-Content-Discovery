@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Configure Kaggle Credentials
-Place the provided Kaggle credentials token (`key: KGAT_53ae34eec583ba646f64afb63c320a50`) in your local `.kaggle` directory. The pipeline script does this automatically at runtime.
+Place the provided Kaggle credentials token (`key: `) in your local `.kaggle` directory. The pipeline script does this automatically at runtime.
 
 ### 3. Run Pipeline
 Execute the full workflow (downloading data, preprocessing, modeling, evaluation, and report/presentation creation):
