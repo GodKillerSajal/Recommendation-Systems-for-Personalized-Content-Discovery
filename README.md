@@ -1,0 +1,2 @@
+# Recommendation-Systems-for-Personalized-Content-Discovery
+**Netflix Recommendation Pipeline** An end-to-end recommendation system built on the Netflix Prize Dataset. Features data preprocessing (CSV to Parquet via DuckDB), exploratory data analysis (EDA), and collaborative filtering models (ALS, SVD). Includes automated evaluation via RMSE and MAP@10 alongside professional PDF/Jupyter report generation.
