@@ -9,21 +9,18 @@ netflix-recsys-analysis/
 ├─ requirements.txt             # Python dependencies
 ├─ .gitignore                   # Ignore raw files and model binaries
 ├─ notebook.ipynb               # Full Jupyter Notebook containing EDA, modeling and evaluation
-├─ presentation_prompt.txt      # Text prompt to generate the 8-slide presentation deck
 ├─ data/
 │   ├─ raw/                     # Raw Netflix txt files downloaded via Kaggle CLI
 │   └─ processed/               # Parquet files, user/item index maps, metrics.json
 ├─ reports/
 │   ├─ report.pdf               # Final technical report (PDF)
-│   └─ presentation.pdf         # Final 8-slide presentation deck (PDF)
+│   └─ presentation.pdf         # Final 8-slide presentation deck (ppt)
 ├─ scripts/
 │   └─ run_all.ps1              # Powershell orchestration script
 └─ src/
     ├─ download_data.py         # Configures Kaggle API credentials
     ├─ preprocess.py            # Converts raw txt interactions to optimized Parquet
     ├─ train.py                 # Trains SVD & ALS, computes RMSE & MAP@10
-    ├─ generate_report.py       # Programmatically generates the PDF report
-    └─ generate_presentation.py # Programmatically generates the PDF presentation slides
 ```
 
 ## Setup & Execution
